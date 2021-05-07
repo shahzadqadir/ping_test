@@ -1,5 +1,6 @@
-import platform, subprocess
+import subprocess
 from os import devnull
+from platform import platform
 
 class Connectivity2:
     def check_connectivity(self, host):
